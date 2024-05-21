@@ -12,56 +12,57 @@ body {
 }
 .container {
   background-color: white;
-  width: 300px;
-  height: auto;
-  border-radius: 10px 10px 0 0;
+  max-width: 100%;
+  height: 100%;
+  border-radius: .8rem .8rem 0 0;
   text-align: left;
   display: flex;
   flex-direction: column;
 }
 .image {
-  width: 100%;
-  border-radius: 10px 10px 0 0;
+max-width: 100%;
+max-height: 100%;
+border-radius: 10px 10px 0 0;
 }
 .text {
   padding: 5%;
 }
 .perfume {
-  font-size: 14px;
+  font-size: 1rem;
   color: hsl(228, 12%, 48%);
   font-family: montserrat;
 }
 h1 {
   color: hsl(212, 21%, 14%);
-  margin-top: 10px;
-  margin-bottom: 25px;
+  margin-top: .8rem;
+  margin-bottom: 1.7rem;
   font-family: fraunces;
 }
 .description {
   color: hsl(228, 12%, 48%);
-  font-size: 14px;
+  font-size: 1rem;
   font-family: montserrat;
 }
 
 h2 {
-  margin: 10px 0;
+  margin: .8rem 0;
   color: hsl(158, 36%, 37%);
   font-family: fraunces;
 }
-p3 {
-  margin-left: -99px;
+h3 {
+
   text-decoration: line-through;
   color: hsl(228, 12%, 48%);
 }
-grid {
+.priceGrid {
   display: grid;
-  grid-template-columns: 200px 200px;
+  grid-template-columns: 12.5rem 12.5rem;
   align-items: center;
 }
 .button {
-  padding: 10px;
+  padding: .8rem;
   border: none;
-  border-radius: 10px;
+  border-radius: .8rem;
   background-color: hsl(158, 36%, 37%);
   width: 80%;
   text-align: center;
@@ -69,23 +70,15 @@ grid {
   margin-bottom: 20px;
 }
 .cart {
-  margin-right: 10px;
+  margin-right: .8rem;
 }
 .add-to-cart {
   color: white;
-  font-size: 14px;
+  font-size: 1rem;
 }
-@media (min-width: 48rem) {
-  .container {
-    flex-direction: row;
-    background-color: rgb(255, 255, 255);
-    width: max-content;
-  }
-  .button {
-    display: flex;
-  }
-}
-@media (min-width: 56em) {
+
+
+@media (min-width: 56rem) {
   .container {
     flex-direction: row;
     background-color: rgb(255, 255, 255);
@@ -93,7 +86,7 @@ grid {
     align-items: center;
     justify-content: center;
     height: 30em;
-    border-radius: 10px 10px;
+    border-radius: .8em .8em;
   }
   .button {
     display: flex;
@@ -102,9 +95,9 @@ grid {
     margin-top: 10%;
   }
   .image {
-    border-radius: 10px 0 0 10px;
+    border-radius: .8rem 0 0 .8rem;
   }
   .description {
-    font-size: 20px;
+    font-size: 1.5rem;
   }
 }
