@@ -14,15 +14,15 @@ body {
   background-color: white;
   max-width: 100%;
   height: 100%;
-  border-radius: .8rem .8rem 0 0;
+  border-radius: 0.8rem 0.8rem 0 0;
   text-align: left;
   display: flex;
   flex-direction: column;
 }
 .image {
-max-width: 100%;
-max-height: 100%;
-border-radius: 10px 10px 0 0;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px 10px 0 0;
 }
 .text {
   padding: 5%;
@@ -34,7 +34,7 @@ border-radius: 10px 10px 0 0;
 }
 h1 {
   color: hsl(212, 21%, 14%);
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   margin-bottom: 1.7rem;
   font-family: fraunces;
 }
@@ -45,12 +45,11 @@ h1 {
 }
 
 h2 {
-  margin: .8rem 0;
+  margin: 0.8rem 0;
   color: hsl(158, 36%, 37%);
   font-family: fraunces;
 }
 h3 {
-
   text-decoration: line-through;
   color: hsl(228, 12%, 48%);
 }
@@ -60,9 +59,9 @@ h3 {
   align-items: center;
 }
 .button {
-  padding: .8rem;
+  padding: 0.8rem;
   border: none;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
   background-color: hsl(158, 36%, 37%);
   width: 80%;
   text-align: center;
@@ -70,13 +69,12 @@ h3 {
   margin-bottom: 20px;
 }
 .cart {
-  margin-right: .8rem;
+  margin-right: 0.8rem;
 }
 .add-to-cart {
   color: white;
   font-size: 1rem;
 }
-
 
 @media (min-width: 56rem) {
   .container {
@@ -86,7 +84,7 @@ h3 {
     align-items: center;
     justify-content: center;
     height: 30em;
-    border-radius: .8em .8em;
+    border-radius: 0.8em 0.8em;
   }
   .button {
     display: flex;
@@ -95,7 +93,7 @@ h3 {
     margin-top: 10%;
   }
   .image {
-    border-radius: .8rem 0 0 .8rem;
+    border-radius: 0.8rem 0 0 0.8rem;
   }
   .description {
     font-size: 1.5rem;
